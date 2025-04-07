@@ -16,7 +16,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+
+      <h1>Technical One</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -25,11 +26,39 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <section className="read-the-docs">
+        <h2>Services</h2>
+        <p>Online/Offline Internships</p>
+      </section>
+
+      <section className="read-the-docs">
+        <h2>Domains Available</h2>
+        <ul>
+          <li>Java</li>
+          <li>Web Development</li>
+          <li>Power BI</li>
+          <li>Data Science</li>
+        </ul>
+      </section>
+
+      <section className="read-the-docs">
+        <h2>Internship Benefits</h2>
+        <p>We provide hands-on practical experience on live projects.</p>
+      </section>
+
+      <section className="read-the-docs">
+        <h2>Achievements</h2>
+        <ul>
+          <li>Collaborated with MIT ADT University</li>
+          <li>Partnered with CAIT Edu Systems for candidate referrals</li>
+        </ul>
+      </section>
     </>
   )
 }
+
+export default App
+
 
 export default App
